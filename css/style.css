@@ -16,31 +16,29 @@ body {
     padding: 0;
 }
 
-.side-col {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    /* width: 576px; */
+.scroll-img {
+    height: 100vh;
 }
 
-.main {
-    width: 576px;
-    max-width: 100%;
-    margin: auto;
-    padding: 15px;
+.aamir {
+    margin: 20px auto;
+    width: 130px;
+    height: auto;
 }
+
+/* .login-margin{
+    margin: 120px auto;
+} */
+
 
 .login-form {
     width: 400px;
     max-width: 100%;
-    margin: 30px auto 15px;
 }
 
 .form-control {
     font-size: 16px;
-    padding: 16px 20px;
+    padding: 12px 20px;
     box-shadow: 0.97px 0.26px 3px #0000000D;
     border: 1px solid #D9D9D9;
     border-radius: 3px;
@@ -48,14 +46,13 @@ body {
 }
 
 .form-control:focus {
-
     box-shadow: 0px 0px 10px rgba(43, 100, 177, 1);
     border: 1px solid #2B64B1;
 }
 
 .login-btn {
-    margin: 6px 0 17px;
-    font-size: 17px;
+    margin: 6px 0 16px;
+    font-size: 16px;
     color: #F88634;
     background: #F8863400 0% 0% no-repeat padding-box;
     border: 2px solid #F88634;
@@ -78,11 +75,6 @@ a {
     font-size: 22px;
 }
 
-
-footer {
-    margin-bottom: 70px;
-}
-
 .text-block {
     position: absolute;
     right: 10%;
@@ -90,7 +82,6 @@ footer {
     bottom: 10%;
     color: #ffffff;
     line-height: 2;
-
 }
 
 .block-header {
@@ -105,7 +96,6 @@ footer {
 .block-note {
     line-height: 28px;
     font-weight: 200;
-    /* width: 85%; */
 }
 
 .small-txt {
@@ -113,3 +103,47 @@ footer {
     line-height: 17px;
     font-size: 14px;
 }
+
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {}
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    .scroll-img {
+        height: auto;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .block-header {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .form-control{
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .login-btn{
+        font-size: 14px;
+    }
+}
+
