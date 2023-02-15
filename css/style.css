@@ -17,6 +17,7 @@ body {
 }
 
 .scroll-img {
+    object-fit: cover;
     height: 100vh;
 }
 
@@ -114,7 +115,7 @@ a {
 
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
     .scroll-img {
         height: auto;
     }
