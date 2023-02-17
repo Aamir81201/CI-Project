@@ -8,13 +8,13 @@ body {
     padding: 0;
 }
 
-.row {
+/* .row {
     margin: 0;
-}
+} */
 
-[class^="col"] {
+/* [class^="col"] {
     padding: 0;
-}
+} */
 
 .scroll-img {
     object-fit: cover;
@@ -140,21 +140,66 @@ a {
     box-shadow: 0px 0px 25px #0000000F;
 }
 
-.dropdown-item{
+.dropdown-item {
     font-size: 14px;
     color: #414141;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     background-color: #DDDDDD;
 }
 
-.left{
+.left {
     float: left;
     overflow: hidden;
 }
-.right{
+
+.right {
     float: right;
     overflow: hidden;
+}
+
+
+
+/* missions-content */
+
+.shadow {
+    margin: 20px 0;
+    /* height: 600px; */
+    /* width: 400px; */
+    border: 0;
+    box-shadow: 0px 0px 25px #0000000F;
+}
+
+.tags {
+    color: white;
+}
+
+.badge-1{
+    position: relative;
+    top: -20px;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 10000;
+    color: #414141;
+    width: fit-content;
+    background-color: #ffffff;
+}
+
+.badge-2{
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 10000;
+    color: #414141;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid #E8E8E8;
+}
+
+.minus-margin{
+    margin: -20px auto;
 }
 
 /* // XX-Large devices (larger desktops) */
@@ -179,7 +224,7 @@ a {
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
     .search-bar {
-        width: 30%;
+        width: 35%;
     }
 }
 
